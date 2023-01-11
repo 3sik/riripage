@@ -1,0 +1,42 @@
+/* index2.html */
+/* MAIN */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nanum+Gothic+Coding:wght@400;700&family=Notable&family=Noto+Sans+KR:wght@400;700&display=swap');
+main {
+    width: auto;
+    height: 600px;
+    background-color: #F8F8FF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+main > div >.myimg {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url("minyongGosim.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+main > div > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+
+    font-family: 'Noto Sans Korean','Nanum Gothic Coding';
+}
+
+main > div > h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-weight: 700px;
+    font-family: 'Noto Sans Korean','Nanum Gothic Coding';
+}

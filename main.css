@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+li {
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* Lobster, Notable, Nanum Gothic Coding, Noto Sans Korean */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nanum+Gothic+Coding:wght@400;700&family=Notable&family=Noto+Sans+KR:wght@400;700&display=swap');
+
+/* HEADER */
+
+header {
+    font-family:'Notable';
+    color: 	#4B0082;
+    width: auto;
+    height: 360px;
+    background-color:	#DDA0DD;
+}
+
+header .container {
+	display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+header > nav > div {
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+}   
+
+header > nav > div > a{
+    font-size: 50px;
+    display:block;
+    width: 900px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+header > nav > ul {
+    display: flex;
+    margin: auto;
+}
+
+header > nav > ul > li {
+    font-family: 'Nanum Gothic Coding';
+    height: 30px;
+    font-size: 18px;
+    list-style: none;
+    padding: 30px;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: auto;
+    height: 70px;
+    background-color:#E6E6FA;
+}
+
+footer > p {
+    text-align: center;
+    padding-top: 20px;
+}
