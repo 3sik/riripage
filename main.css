@@ -19,7 +19,7 @@ header {
     color: 	#4B0082;
     width: auto;
     height: 360px;
-    background-color:	#DDA0DD;
+    background-color:#DDA0DD;
 }
 
 header .container {
@@ -50,6 +50,7 @@ header > nav > ul > li {
     font-family: 'Nanum Gothic Coding';
     height: 30px;
     font-size: 18px;
+    font-weight: bold;
     list-style: none;
     padding: 30px;
 }
