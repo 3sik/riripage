@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nanum+Gothic+Coding:wght@400;700&family=Notable&family=Noto+Sans+KR:wght@400;700&display=swap');
 main {
     width: auto;
-    height: 600px;
+    height: 800px;
     background-color: #F8F8FF;
 }
 
@@ -11,4 +11,15 @@ main > .video {
     width: auto;
     height: 600px;
     margin:0 160px;
+}
+
+main > .text {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+
+    font-size: 30px;
+    font-family: 'Nanum Gothic Coding';
 }
